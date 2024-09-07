@@ -1,0 +1,665 @@
+
+
+html{
+    scroll-behavior: smooth;
+
+    
+}
+body{
+margin: 0px;
+padding: 0px;
+font-size: x-large;
+overflow-x: hidden;
+background-color:navajowhite;
+
+   
+}
+.right{
+display: flex;
+justify-content: end;
+margin-right: 2vw;
+}
+header{
+    background-color: #111;
+    color: white;
+    padding: 2px 2px;
+    width: 100%;
+    
+  }
+ ol{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding:.5%;
+}
+.h1{
+
+  position: relative;
+  bottom: 50px;
+ 
+}
+
+ ul{
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    align-self: start;
+    position: relative;
+    bottom: 50px;
+    justify-content: center;
+}
+.search{
+    width: 280px;
+    height: 20px;
+    border-radius: 8px;
+    padding: 8px;
+    padding-inline-start: 20px;
+    background-color:rgba(245, 222, 179, 0.445);
+    color: aliceblue;
+    outline: none;
+    cursor: pointer;
+    font-style: italic;
+}
+.one{
+    text-decoration: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 500%;
+  height: 210vh;
+  transition: all 1s ease-in-out;
+  
+}
+
+.container1,.container2,.container3,.container4,.container5{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  background: url(photo-1604147495798-57beb5d6af73.avif);
+} 
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.mini{
+  border: solid px black;
+  position: relative;
+  right: 5%;
+}
+
+
+
+.color{
+    margin-top: 10%;
+    width: 900px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    flex-wrap: wrap;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: rebeccapurple;
+}
+.black{
+    background-color: aqua;
+}
+
+.a1,.b1,.c1,.d1,.e1{
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+.a1{
+    border:1px solid white;
+    color: white;
+}
+.b1{
+    border:1px solid black;
+    color: black;
+}
+.c1{
+    border:1px solid white;
+    color: white;
+}
+
+.d1{
+    border:1px solid white;
+    color: white;
+}
+.e1{
+    border:1px solid white;
+    color: white;
+}
+
+.a2,.b2,.c2,.d2,.e2{
+    z-index: 2;
+}
+
+.a2{  
+
+   color: white;
+}
+.b2{  
+ 
+   color: yellowgreen;
+}
+.c2{  
+   
+   color: white;
+}
+.d2{
+    color:blueviolet;
+    
+}
+.e2{  
+    color: white;
+ }
+
+
+.a3,.b3,.c3,.d3,.e3{
+  background-color: #111;
+  
+
+}
+.link{
+  padding: 30px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    bottom: 800px;
+    height: 200px;
+  
+}
+.loge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+
+}
+.loge h3{
+    color: black;
+    cursor: pointer;
+}
+.loge p{
+    font-size: 15px;
+    color: gray;
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+    padding-top: 0%;
+    
+    
+}
+
+.buytext{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 10px;
+   
+}
+.shoes{
+  margin-left: 10%;
+}
+
+.buytext p {
+    color: gray;
+}
+
+.buytext button {
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    margin: 5%;
+    cursor: pointer;
+}
+.blk{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blu{
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.re{
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blublk{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+
+    
+}
+.sizes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 15px;
+}
+.size{
+    border: 1px solid;
+    margin-top: 5px;
+    padding: 5px;
+    width: 50px;
+    cursor: pointer;
+}
+.buynow{
+    width: 500px;
+    background-color: aliceblue;
+    color: black;
+    height: 700px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 600px;
+    display: flex;
+    justify-content: center;
+    font: 1em sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.now{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.now input{
+    padding: 20px 0px;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.buynow h5{
+    color: gray;
+}
+.button{
+    background-color: green;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+   
+}
+.vis{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.visa{
+    width: 50px;
+    height: 50px;
+    
+}
+.close{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0PX;
+    right: 0PX;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+.wait{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    border-top: 6px solid white;
+    border-radius: 25px;
+    position: relative;
+    left: 130px;
+    transform: rotate(90deg);
+    animation: s 1s linear infinite;
+ 
+}
+  
+  
+.gallery {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+    max-width: 100%; /* تأكد من عدم تجاوز الصورة لأبعاد الحاوية */
+}
+
+.galleryImg {
+    width: 100%;
+}
+
+.newSeason {
+    display: flex;
+    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+}
+
+.nsItem {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%; /* تأكد من عدم تجاوز الصورة لأبعاد الحاوية */
+}
+
+.nsImg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* للحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+.nsTitle {
+    font-size: 40px;
+}
+
+.nsButton {
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fIcons {
+    display: flex;
+    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+  
+@keyframes s {
+     0%{ transform: rotate(0deg); } 
+     100%{ transform: rotate(360deg); } 
+  }
+
+  @media (max-width: 480px){
+
+    html, body {
+        font-size: medium;
+        overflow-x: hidden;
+        
+        
+    }
+
+    .container{
+
+      width: 550vw;
+     
+    }
+
+    
+     .container1,.container2,.container3,.container4,.container5{
+      width:99vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 40px;
+    }
+ 
+    .content{
+      width: 20%;
+      justify-content: center;
+      
+    }
+
+  .color{
+      position: relative;
+      right: 2%;
+    
+    }
+    
+    header{
+        background-color: red;
+        padding: 2px;
+    }
+    .search{
+        display: none;
+    }
+     ol{
+        font-size: 18px;
+        flex-wrap: wrap ;
+        position: relative;
+        
+    }
+     ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 13px;
+        font-weight: black;
+        gap: 12px;
+        cursor: pointer;
+        width: 100%;
+        position: relative;
+        right: 12vw;
+    }
+    a{
+        position: relative;
+        
+    }
+    .color{
+        transform: scale(.48);
+        right: 22%;
+        
+    }
+  
+.loge{
+    margin: 20px;
+}
+
+.buy{
+    transform: scale(.9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.logos{
+  margin-bottom: 50px;
+}
+.link{
+padding: 3px;
+}
+.buytext{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+.shoes{
+    width: 90%;
+}
+
+.bay{
+  margin-right: 400px;
+}
+.fListItem{
+    margin-left:60px;
+    
+}
+
+.buynow{
+    width: 90%;
+    height: 575px;
+}
+.zero{
+  border: solid px black;
+  position: absolute;
+  left: 50vw;
+  z-index: 2;
+}
+.one{
+  position: absolute;
+  left: 165vw;
+  z-index: 3;
+}
+.two{
+  position: absolute;
+  left: 280vw;
+  z-index: 3;
+}
+.three{
+    position: absolute;
+    left: 380vw;
+    z-index: 3;
+}
+.four{
+    position: absolute;
+    left: 500vw;
+    z-index: 3;
+    
+}
+.a1,.b1,.c1,.d1,.e1{
+  display: none;
+}
+.a2,.b2,.c2,.d2,.e2{
+    font-size: 12px;
+}
+.a3,.b3,.c3,.d3,.e3{
+  width: max-content;
+}
+  }
+  
+  
+
+ 
