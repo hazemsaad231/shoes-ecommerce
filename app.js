@@ -19,18 +19,21 @@ let buynow = document.querySelector('.buynow')
 
 
 
-blublk[2].style.display="none"
+blublk[2].style.display="block"
 link.forEach((element,index)=>{
     element.addEventListener("click",()=>{
         if(index==0){
             shoes.src ="air.png"
             text.innerHTML="AIR MAX"
+            blublk[0].style.background="black"
             blublk[1].style.background="blue"
             blublk[2].style.display="none"
         }
         else if(index==1){
             shoes.src = "jordan.png"
             text.innerHTML="JORDAN"
+            blublk[0].style.background="white"
+            blublk[1].style.background="blue"
             blublk[2].style.display="none"
             
         }else if(index==2){
@@ -38,18 +41,25 @@ link.forEach((element,index)=>{
             text.innerHTML= "BLAZER"
             blublk[0].style.background="white"
             blublk[1].style.background="green"
+            blublk[2].style.display="none"
+
         }else if(index==3){
             shoes.src = "crater.png"
             text.innerHTML= "CRATER"
             blublk[0].style.background="black"
             blublk[1].style.background="white"
-            blublk[2].style.display="none"
+            blublk[2].style.display="block"
+            blublk[2].style.background="blue"
+
+            
         }
         else if(index==4){
             shoes.src = "hippie.png"
             text.innerHTML= " HIPPIE"
+            blublk[0].style.background="black"
             blublk[1].style.background="blue"
             blublk[2].style.display="block"
+            blublk[2].style.background="gray"
         }
              container.style.transform = `translateX(${-20*index}%)`
     }
@@ -82,25 +92,33 @@ blublk.forEach((element,index)=>{
    if(index==1){
     if(text.innerHTML=="AIR MAX"){
         shoes.src="air2.png"
+    }if(text.innerHTML=="JORDAN"){
+        shoes.src=" jordan2.png"
     }
     else if(text.innerHTML=="BLAZER"){
         shoes.src="blazer2.png"
     }
     else if(text.innerHTML==" HIPPIE"){
         shoes.src="hippie2.png"
-    }else if(text.innerHTML=="CRATER"){
+    }
+    else if(text.innerHTML=="CRATER"){
         shoes.src="crater2.png"
-    }else if(text.innerHTML==""){
-        shoes.src="hippie2.png"
-   }
+    }
 }
    if(index==2){
+
     if(text.innerHTML=="AIR MAX"){
         shoes.src="air2.png"
-    }else if(text.innerHTML==" HIPPIE"){
+    } if(text.innerHTML=="JORDAN"){
+        shoes.src="air2.png"
+    }
+    else if(text.innerHTML=="BLAZER"){
+        shoes.src="blazer3.png"
+    }
+    else if(text.innerHTML==" HIPPIE"){
         shoes.src="hippie3.png"
     }else if(text.innerHTML=="CRATER"){
-        shoes.src=""
+        shoes.src="crater3.png"
     }
 }
    

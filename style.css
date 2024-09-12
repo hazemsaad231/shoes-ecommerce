@@ -34,12 +34,15 @@ header{
     width: 100%;
     padding:.5%;
 }
-.h1{
+
+h1{
 
   position: relative;
-  bottom: 50px;
- 
+  bottom: 1%;
+  margin-top: 1%;
+  animation-duration:4s;
 }
+
 
  ul{
     cursor: pointer;
@@ -49,7 +52,7 @@ header{
     display: flex;
     align-self: start;
     position: relative;
-    bottom: 50px;
+    bottom: 5px;
     justify-content: center;
 }
 .search{
@@ -70,6 +73,8 @@ header{
 }
 a{
     text-decoration: none;
+}
+.link{
     color: aliceblue;
 }
 .container{
@@ -184,8 +189,9 @@ a{
  }
 
 
-.a3,.b3,.c3,.d3,.e3{
+.a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
+  color: white;
   
 
 }
@@ -234,8 +240,8 @@ a{
     gap: 10px;
     padding-top: 0%;
     
-    
 }
+
 
 .buytext{
     position: absolute;
@@ -245,6 +251,7 @@ a{
     padding: 10px;
    
 }
+
 .shoes{
   margin-left: 10%;
 }
@@ -347,6 +354,15 @@ a{
     display: flex;
     flex-direction: column;
    
+}
+.a3:hover,.b3:hover,.c3:hover,.d3:hover,.e3:hover{
+
+    color: black;
+   
+}
+a:active{
+    position: relative;
+    bottom: 10px;
 }
 .vis{
     display: flex;
@@ -547,6 +563,9 @@ footer {
     header{
         background-color: red;
         padding: 2px;
+      
+      
+        
     }
     .search{
         display: none;
@@ -655,8 +674,9 @@ padding: 3px;
 .a2,.b2,.c2,.d2,.e2{
     font-size: 12px;
 }
-.a3,.b3,.c3,.d3,.e3{
-  width: max-content;
+
+a:hover{
+    color: #111;
 }
   }
   
