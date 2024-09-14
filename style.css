@@ -24,7 +24,10 @@ header{
     color: white;
     padding: 2px 2px;
     width: 100%;
-    
+  }
+
+.link{
+    margin: 20px;
   }
  ol{
     display: flex;
@@ -191,13 +194,10 @@ a{
 
 .a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
-  color: white;
-  
+  color: white; 
+  padding: 5px;
+}
 
-}
-.link{
-  padding: 30px;
-}
 
 .logo{
     width: 100px;
@@ -355,14 +355,11 @@ a{
     flex-direction: column;
    
 }
-.a3:hover,.b3:hover,.c3:hover,.d3:hover,.e3:hover{
 
-    color: black;
-   
-}
 a:active{
     position: relative;
     bottom: 10px;
+    color: wheat;
 }
 .vis{
     display: flex;
