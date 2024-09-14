@@ -27,7 +27,8 @@ header{
   }
 
 .link{
-    margin: 20px;
+    color: aliceblue;
+    
   }
  ol{
     display: flex;
@@ -35,7 +36,8 @@ header{
     justify-content: space-between;
     list-style: none;
     width: 100%;
-    padding:.5%;
+    height: min-content;
+    padding: .5px;
 }
 
 h1{
@@ -56,7 +58,9 @@ h1{
     align-self: start;
     position: relative;
     bottom: 5px;
+    gap: 30px;
     justify-content: center;
+    width: 100%;
 }
 .search{
     width: 280px;
@@ -77,9 +81,7 @@ h1{
 a{
     text-decoration: none;
 }
-.link{
-    color: aliceblue;
-}
+
 .container{
   display: flex;
   flex-direction: row;
@@ -195,7 +197,17 @@ a{
 .a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
   color: white; 
-  padding: 5px;
+  border-radius: 20px;
+}
+
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+  background-color: white;
+  color: #111;
+  border-radius: 20px;
+
+}
+.e3{
+    width: max-content;
 }
 
 
@@ -411,7 +423,7 @@ a:active{
 .galleryItem {
     flex: 1;
     padding: 50px;
-    max-width: 100%; /* تأكد من عدم تجاوز الصورة لأبعاد الحاوية */
+    max-width: 100%; 
 }
 
 .galleryImg {
@@ -420,7 +432,7 @@ a:active{
 
 .newSeason {
     display: flex;
-    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+    flex-wrap: wrap; 
 }
 
 .nsItem {
@@ -432,13 +444,13 @@ a:active{
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 100%; /* تأكد من عدم تجاوز الصورة لأبعاد الحاوية */
+    max-width: 100%;
 }
 
 .nsImg {
     width: 100%;
     height: 500px;
-    object-fit: cover; /* للحفاظ على نسبة العرض إلى الارتفاع */
+    object-fit: cover; 
 }
 
 .nsTitle {
@@ -453,7 +465,7 @@ a:active{
 
 footer {
     display: flex;
-    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+    flex-wrap: wrap; 
 }
 
 .footerLeft {
@@ -461,7 +473,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+    flex-wrap: wrap; 
 }
 
 .fMenuTitle {
@@ -501,7 +513,7 @@ footer {
 
 .fIcons {
     display: flex;
-    flex-wrap: wrap; /* للسماح للعناصر بالالتفاف */
+    flex-wrap: wrap; 
 }
 
 .fIcon {
@@ -639,7 +651,6 @@ padding: 3px;
     height: 575px;
 }
 .zero{
-  border: solid px black;
   position: absolute;
   left: 50vw;
   z-index: 2;
@@ -675,6 +686,12 @@ padding: 3px;
 a:hover{
     color: #111;
 }
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+    background-color: white;
+    color: #111;
+    border-radius: 20px;
+  
+  }
   }
   
   
