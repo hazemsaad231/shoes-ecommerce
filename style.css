@@ -140,7 +140,6 @@ a{
   display: flex;
   flex-direction: row;
   width: 500%;
-  height: 210vh;
   transition: all 1s ease-in-out;
   
 }
@@ -150,7 +149,6 @@ a{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40%;
   background: url(photo-1604147495798-57beb5d6af73.avif);
 } 
 .content{
@@ -200,8 +198,8 @@ a{
     color: white;
 }
 .b1{
-    border:1px solid black;
-    color: black;
+    border:1px solid white;
+    color: white;
 }
 .c1{
     border:1px solid white;
@@ -245,6 +243,7 @@ a{
 .a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
   color: white; 
+  padding: 10px;
   border-radius: 20px;
 }
 
@@ -258,32 +257,22 @@ a{
     width: max-content;
 }
 
-
-.logo{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-
-}
-
 .logos{
-    display: flex;
-    justify-content: space-evenly;
-    position:relative;
-    bottom: 800px;
-    height: 200px;
-  
-}
-.loge{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 200px;
+  height: max-content;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
 
 }
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+
 .loge h3{
     color: black;
     cursor: pointer;
