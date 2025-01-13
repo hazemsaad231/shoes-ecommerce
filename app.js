@@ -20,6 +20,19 @@ let buynow = document.querySelector('.buynow')
 
 
 
+
+const currentPath = window.location.pathname;
+
+// التأكد من إن المسار يتطابق مع اللينك وتطبيق كلاس "active"
+link.forEach(link => {
+  if (link.getAttribute("href") === currentPath) {
+    link.classList.add("active");
+  }
+});
+
+
+
+
 blublk[2].style.display="block"
 link.forEach((element,index)=>{
     element.addEventListener("click",()=>{

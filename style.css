@@ -503,29 +503,32 @@ a:active{
 footer {
     display: flex;
     flex-wrap: wrap; 
+    padding: 50px;
 }
+
 
 .footerLeft {
     flex: 2;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
     flex-wrap: wrap; 
+
 }
 
 .fMenuTitle {
-    font-size: 16px;
+    font-size: 25px;
+    padding-block: 25px;
 }
 
 .fList {
     padding: 0;
     display: flex;
     flex-direction: column;
+    margin: auto;
     list-style: none;
 }
 
 .fListItem {
-    margin-bottom: 10px;
     color: gray;
     cursor: pointer;
 }
@@ -687,7 +690,7 @@ padding: 3px;
   margin-right: 400px;
 }
 .fListItem{
-    margin-left:60px;
+    margin-left:25px;
     
 }
 
