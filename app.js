@@ -24,28 +24,28 @@ blublk[2].style.display="block"
 link.forEach((element,index)=>{
     element.addEventListener("click",()=>{
         if(index==0){
-            shoes.src ="air.png"
+            shoes.src ="img/air.png"
             text.innerHTML="AIR MAX"
             blublk[0].style.background="black"
             blublk[1].style.background="blue"
             blublk[2].style.display="none"
         }
         else if(index==1){
-            shoes.src = "jordan.png"
+            shoes.src = "img/jordan.png"
             text.innerHTML="JORDAN"
             blublk[0].style.background="white"
             blublk[1].style.background="blue"
             blublk[2].style.display="none"
             
         }else if(index==2){
-            shoes.src = "blazer.png"
+            shoes.src = "img/blazer.png"
             text.innerHTML= "BLAZER"
             blublk[0].style.background="white"
             blublk[1].style.background="green"
             blublk[2].style.display="none"
 
         }else if(index==3){
-            shoes.src = "crater.png"
+            shoes.src = "img/crater.png"
             text.innerHTML= "CRATER"
             blublk[0].style.background="black"
             blublk[1].style.background="white"
@@ -55,7 +55,7 @@ link.forEach((element,index)=>{
             
         }
         else if(index==4){
-            shoes.src = "hippie.png"
+            shoes.src = "img/hippie.png"
             text.innerHTML= " HIPPIE"
             blublk[0].style.background="black"
             blublk[1].style.background="blue"
@@ -77,49 +77,49 @@ blublk.forEach((element,index)=>{
 
         if(index==0){
             if(text.innerHTML=="AIR MAX"){
-                shoes.src="air.png"
+                shoes.src="img/air.png"
             } if(text.innerHTML=="JORDAN"){
-                shoes.src="jordan.png"
+                shoes.src="img/jordan.png"
             }
             if(text.innerHTML=="BLAZER"){
-                shoes.src="blazer.png"
+                shoes.src="img/blazer.png"
             }
             else if(text.innerHTML==" HIPPIE"){
-                shoes.src="hippie.png"
+                shoes.src="img/hippie.png"
             }else if(text.innerHTML=="CRATER"){
-                shoes.src="crater.png"
+                shoes.src="img/crater.png"
             }
            }
    if(index==1){
     if(text.innerHTML=="AIR MAX"){
-        shoes.src="air2.png"
+        shoes.src="img/air2.png"
     }if(text.innerHTML=="JORDAN"){
-        shoes.src=" jordan2.png"
+        shoes.src=" img/jordan2.png"
     }
     else if(text.innerHTML=="BLAZER"){
-        shoes.src="blazer2.png"
+        shoes.src="img/blazer2.png"
     }
     else if(text.innerHTML==" HIPPIE"){
-        shoes.src="hippie2.png"
+        shoes.src="img/hippie2.png"
     }
     else if(text.innerHTML=="CRATER"){
-        shoes.src="crater2.png"
+        shoes.src="img/crater2.png"
     }
 }
    if(index==2){
 
     if(text.innerHTML=="AIR MAX"){
-        shoes.src="air2.png"
+        shoes.src="img/air2.png"
     } if(text.innerHTML=="JORDAN"){
-        shoes.src="air2.png"
+        shoes.src="img/air2.png"
     }
     else if(text.innerHTML=="BLAZER"){
-        shoes.src="blazer3.png"
+        shoes.src="img/blazer3.png"
     }
     else if(text.innerHTML==" HIPPIE"){
-        shoes.src="hippie3.png"
+        shoes.src="img/hippie3.png"
     }else if(text.innerHTML=="CRATER"){
-        shoes.src="crater3.png"
+        shoes.src="img/crater3.png"
     }
 }
    

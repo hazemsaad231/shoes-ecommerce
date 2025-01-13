@@ -114,7 +114,6 @@ h1{
     bottom: 5px;
     gap: 30px;
     justify-content: center;
-    width: 100%;
 }
 .search{
     width: 280px;
@@ -149,7 +148,7 @@ a{
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: url(photo-1604147495798-57beb5d6af73.avif);
+  background: url(img/photo-1604147495798-57beb5d6af73.avif);
 } 
 .content{
   display: flex;
@@ -627,17 +626,17 @@ footer {
         position: relative;
         
     }
-     ul{
+     #ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: black;
-        gap: 12px;
+        gap: 10px;
         cursor: pointer;
         width: 100%;
         position: relative;
-        right: 12vw;
+        right: 10vw;
     }
     a{
         position: relative;
