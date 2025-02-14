@@ -1,5 +1,4 @@
- 
- let container = document.querySelector('.container')
+let container = document.querySelector('.container')
 let container1 = document.querySelector('.container1')
 let container2 = document.querySelector('.container2')
 let container3 = document.querySelector('.container3')
@@ -19,18 +18,16 @@ let buynow = document.querySelector('.buynow')
 
 
 
+const currentPath = window.location.pathname; // الحصول على المسار الحالي
+const Link = document.querySelectorAll('.link'); // الحصول على جميع الروابط
 
 
-const currentPath = window.location.pathname;
-
-// التأكد من إن المسار يتطابق مع اللينك وتطبيق كلاس "active"
-link.forEach(link => {
-  if (link.getAttribute("href") === currentPath) {
-    link.classList.add("active");
-  }
-});
-
-
+    // التأكد من إن المسار يتطابق مع الرابط وتفعيل الكلاس "active"
+ Link.forEach(link => {
+        if (link.getAttribute("href") === currentPath) {
+            link.classList.add("active");
+        }
+    });
 
 
 blublk[2].style.display="block"
@@ -64,7 +61,6 @@ link.forEach((element,index)=>{
             blublk[1].style.background="white"
             blublk[2].style.display="block"
             blublk[2].style.background="blue"
-
             
         }
         else if(index==4){
@@ -75,7 +71,7 @@ link.forEach((element,index)=>{
             blublk[2].style.display="block"
             blublk[2].style.background="gray"
         }
-             container.style.transform = `translateX(${-20*index}%)`
+            container.style.transform = `translateX(${-20*index}%)`
     }
   
        
@@ -159,10 +155,6 @@ buynow.style.display="none"
 let now = document.querySelector(".bay")
 let button = document.querySelector(".button")
 let close1 = document.querySelector(".close")
-
-
-
-
 
 now.addEventListener("click",()=>{
 

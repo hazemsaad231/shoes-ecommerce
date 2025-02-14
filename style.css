@@ -24,6 +24,12 @@ background-color:navajowhite;
     overflow: hidden;
     
 }
+.active {
+    font-weight: bold;
+    color:blue;
+}
+
+
 /* Animation */
 .typewriter-animation {
   animation: 
@@ -140,7 +146,7 @@ a{
   flex-direction: row;
   width: 500%;
   transition: all 1s ease-in-out;
-  
+  transform: translateX(0%);
 }
 
 .container1,.container2,.container3,.container4,.container5{ 
@@ -405,11 +411,11 @@ a{
    
 }
 
-a:active{
+/* a:active{
     position: relative;
     bottom: 10px;
     color: wheat;
-}
+} */
 .vis{
     display: flex;
     flex-direction: row;
@@ -436,16 +442,12 @@ a:active{
 .wait{
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
     border: 5px solid white;
     border-top: 6px solid white;
     border-radius: 25px;
-    position: relative;
-    left: 130px;
     transform: rotate(90deg);
-    animation: s 1s linear infinite;
- 
+    animation: infinite ;
+    margin: auto;
 }
   
   
@@ -579,13 +581,11 @@ footer {
     html, body {
         font-size: medium;
         overflow-x: hidden;
-        
-        
     }
 
     .container{
 
-      width: 550vw;
+      width:555vw;
      
     }
 .h1{
@@ -617,8 +617,6 @@ footer {
     header{
         background-color: black;
         padding: 2px;
-      
-      
         
     }
     .search{
@@ -635,7 +633,6 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         font-size: 12px;
-        font-weight: black;
         gap: 10px;
         cursor: pointer;
         width: 100%;
@@ -732,9 +729,7 @@ padding: 3px;
     font-size: 12px;
 }
 
-a:hover{
-    color: #111;
-}
+
 .a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
     background-color: white;
     color: #111;
