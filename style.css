@@ -118,7 +118,7 @@ h1{
     align-self: start;
     position: relative;
     bottom: 5px;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 .search{
@@ -515,16 +515,18 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
+    padding: 8px;
 
 }
 
 .fMenuTitle {
     font-size: 25px;
     padding-block: 25px;
+    padding-bottom: 2px;
 }
 
 .fList {
-    padding: 0;
+    padding: 2px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -545,11 +547,11 @@ footer {
 }
 
 .fInput {
-    padding: 5px;
+    padding: 2px;
 }
 
 .fButton {
-    padding: 5px;
+    padding: 4px;
     background-color: black;
     color: white;
 }
@@ -585,7 +587,7 @@ footer {
 
     .container{
 
-      width:555vw;
+      width:550vw;
      
     }
 .h1{
