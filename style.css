@@ -1,17 +1,21 @@
 
 html{
     scroll-behavior: smooth;
-
-    
 }
+
+
 body{
 margin: 0px;
 padding: 0px;
 font-size: x-large;
 overflow-x: hidden;
-background-color:navajowhite;
 }
 
+
+.theall{
+    background-color:navajowhite;
+
+}
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Cursor */
@@ -90,6 +94,7 @@ header{
     color: aliceblue;
     
   }
+
  ol{
     display: flex;
     align-items:start;
@@ -109,9 +114,8 @@ h1{
 }
 
 
- ul{
+ul{
     cursor: pointer;
-    color: lightgray;
     font-weight: 400;
     list-style: none;
     display: flex;
@@ -121,6 +125,7 @@ h1{
     gap: 20px;
     justify-content: center;
 }
+
 .search{
     width: 280px;
     height: 20px;
@@ -133,10 +138,7 @@ h1{
     cursor: pointer;
     font-style: italic;
 }
-.one{
-    text-decoration: none;
-    color: aliceblue;
-}
+
 a{
     text-decoration: none;
 }
@@ -165,6 +167,7 @@ a{
 
 
 .color{
+    padding-block: 20px;
     margin-top: 10%;
     width: 900px;
     border-radius: 50%;
@@ -189,6 +192,9 @@ a{
     background-color: aqua;
 }
 
+
+
+
 .a1,.b1,.c1,.d1,.e1{
   font-size: 60px;
   font-weight: 300;
@@ -197,28 +203,10 @@ a{
   border: 1px solid gray;
   z-index: 1;
   flex-wrap: wrap;
-}
-.a1{
-    border:1px solid white;
-    color: white;
-}
-.b1{
-    border:1px solid white;
-    color: white;
-}
-.c1{
-    border:1px solid white;
-    color: white;
+  border:1px solid white;
+
 }
 
-.d1{
-    border:1px solid white;
-    color: white;
-}
-.e1{
-    border:1px solid white;
-    color: white;
-}
 
 .a2,.b2,.c2,.d2,.e2{
     z-index: 2;
@@ -245,11 +233,14 @@ a{
  }
 
 
+
+
 .a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
   color: white; 
   padding: 10px;
   border-radius: 20px;
+  width: max-content;
 }
 
 .a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
@@ -258,9 +249,9 @@ a{
   border-radius: 20px;
 
 }
-.e3{
-    width: max-content;
-}
+
+
+
 
 .logos{
   height: max-content;
@@ -287,6 +278,9 @@ a{
     font-size: 15px;
     color: gray;
 }
+
+
+
 .buy{
     display: flex;
     flex-direction: row;
@@ -294,9 +288,7 @@ a{
     position: relative;
     gap: 10px;
     padding-top: 0%;
-    
 }
-
 
 .buytext{
     position: absolute;
@@ -411,11 +403,6 @@ a{
    
 }
 
-/* a:active{
-    position: relative;
-    bottom: 10px;
-    color: wheat;
-} */
 .vis{
     display: flex;
     flex-direction: row;
@@ -506,7 +493,7 @@ footer {
     display: flex;
     flex-wrap: wrap; 
     padding-block: 50px;
-    padding-inline: 25px;
+    padding-inline: 10px;
 }
 
 
@@ -515,32 +502,37 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
-    padding: 8px;
+    padding: 5px;
 
 }
 
 .fMenuTitle {
     font-size: 25px;
-    padding-block: 25px;
+    padding-block: 20px;
     padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fList {
-    padding: 2px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+    gap: 12px;
     list-style: none;
 }
 
 .fListItem {
     color: gray;
     cursor: pointer;
+ 
 }
 
 .footerRight {
     flex: 1;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -572,11 +564,13 @@ footer {
     font-size: 14px;
 }
 
+
   
 @keyframes s {
      0%{ transform: rotate(0deg); } 
      100%{ transform: rotate(360deg); } 
   }
+
 
   @media (max-width: 480px){
 
@@ -588,6 +582,7 @@ footer {
     .container{
 
       width:550vw;
+
      
     }
 .h1{
@@ -597,7 +592,7 @@ footer {
 
     
      .container1,.container2,.container3,.container4,.container5{
-      width:99vw;
+      width: 99vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -636,7 +631,6 @@ footer {
         flex-wrap: wrap;
         font-size: 12px;
         gap: 10px;
-        cursor: pointer;
         width: 100%;
         position: relative;
         right: 10vw;
@@ -646,12 +640,9 @@ footer {
         
     }
     .color{
-        transform: scale(.48);
-        right: 22%;
-        
+        transform: scale(.45);        
     }
   
-
 
 .buy{
     transform: scale(.9);
@@ -738,8 +729,517 @@ padding: 3px;
     border-radius: 20px;
   
   }
+
+  .fMenuTitle{
+    font-size: 20px;
+  }
+
+  .fListItem{
+    font-size: 15px;
+    text-align: start;
+  }
   }
   
   
 
+  @media (min-width: 540px){
+
+    html, body {
+        font-size: medium;
+        overflow-x: hidden;
+    }
+
+    .container{
+
+      width:534vw;
+
+     
+    }
+.h1{
+    font-size: 25px;
+}
+
+
+    
+     .container1,.container2,.container3,.container4,.container5{
+      width: 99vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 40px;
+    }
  
+    .content{
+      width: 20%;
+      justify-content: center;
+      
+    }
+
+  .color{
+      position: relative;
+      right: 2%;
+    
+    }
+    
+    header{
+        background-color: black;
+        padding: 2px;
+        
+    }
+    .search{
+        display: none;
+    }
+     ol{
+        font-size: 18px;
+        flex-wrap: wrap ;
+        position: relative;
+        
+    }
+     #ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 10px;
+        width: 100%;
+        position: relative;
+        right: 10vw;
+    }
+    a{
+        position: relative;
+        
+    }
+    .color{
+        transform: scale(.6);        
+    }
+  
+
+.buy{
+    transform: scale(.9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.logos{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.link{
+padding: 3px;
+}
+.buytext{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+.shoes{
+    width: 90%;
+}
+
+.bay{
+  margin-right: 400px;
+}
+.fListItem{
+    margin-left:25px;
+    
+}
+
+.buynow{
+    width: 90%;
+    height: 575px;
+}
+.zero{
+  position: absolute;
+  left: 50vw;
+  z-index: 2;
+}
+.one{
+  position: absolute;
+  left: 165vw;
+  z-index: 3;
+}
+.two{
+  position: absolute;
+  left: 270vw;
+  z-index: 3;
+}
+.three{
+    position: absolute;
+    left: 370vw;
+    z-index: 3;
+}
+.four{
+    position: absolute;
+    left: 480vw;
+    z-index: 3;
+    
+}
+.a1,.b1,.c1,.d1,.e1{
+  display: none;
+}
+.a2,.b2,.c2,.d2,.e2{
+    font-size: 12px;
+}
+
+
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+    background-color: white;
+    color: #111;
+    border-radius: 20px;
+  
+  }
+
+  .fMenuTitle{
+    font-size: 20px;
+  }
+
+  .fListItem{
+    font-size: 15px;
+    text-align: start;
+  }
+  }
+
+
+  @media (min-width: 765px){
+
+    html, body {
+        font-size: medium;
+        overflow-x: hidden;
+    }
+
+    .container{
+
+      width:524vw;
+
+     
+    }
+.h1{
+    font-size: 25px;
+}
+
+
+    
+     .container1,.container2,.container3,.container4,.container5{
+      width: 99vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 40px;
+    }
+ 
+    .content{
+      width: 20%;
+      justify-content: center;
+      
+    }
+
+  .color{
+      position: relative;
+      right: 2%;
+    
+    }
+    
+    header{
+        background-color: black;
+        padding: 2px;
+        
+    }
+    .search{
+        display: none;
+    }
+     ol{
+        font-size: 18px;
+        flex-wrap: wrap ;
+        position: relative;
+        
+    }
+     #ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 10px;
+        width: 100%;
+        position: relative;
+        right: 10vw;
+    }
+    a{
+        position: relative;
+        
+    }
+    .color{
+        transform: scale(.85);        
+    }
+  
+
+.buy{
+    transform: scale(.9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.logos{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.link{
+padding: 3px;
+}
+.buytext{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+.shoes{
+    width: 90%;
+}
+
+.bay{
+  margin-right: 400px;
+}
+.fListItem{
+    margin-left:25px;
+    
+}
+
+.buynow{
+    width: 90%;
+    height: 575px;
+}
+.zero{
+  position: absolute;
+  left: 50vw;
+  z-index: 2;
+}
+.one{
+  position: absolute;
+  left: 165vw;
+  z-index: 3;
+}
+.two{
+  position: absolute;
+  left: 270vw;
+  z-index: 3;
+}
+.three{
+    position: absolute;
+    left: 370vw;
+    z-index: 3;
+}
+.four{
+    position: absolute;
+    left: 480vw;
+    z-index: 3;
+    
+}
+.a1,.b1,.c1,.d1,.e1{
+  display: none;
+}
+.a2,.b2,.c2,.d2,.e2{
+    font-size: 12px;
+}
+
+
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+    background-color: white;
+    color: #111;
+    border-radius: 20px;
+  
+  }
+
+  .fMenuTitle{
+    font-size: 20px;
+  }
+
+  .fListItem{
+    font-size: 15px;
+    text-align: start;
+  }
+  }
+  
+
+  @media (min-width: 1024px){
+
+    html, body {
+        font-size: medium;
+        overflow-x: hidden;
+    }
+
+    .container{
+
+      width:500%;
+
+     
+    }
+.h1{
+    font-size: 25px;
+}
+
+
+    
+     .container1,.container2,.container3,.container4,.container5{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 40px;
+    }
+ 
+    .content{
+      width: 20%;
+      justify-content: center;
+      
+    }
+
+  .color{
+      position: relative;
+      right: 2%;
+    
+    }
+    
+    header{
+        background-color: black;
+        padding: 2px;
+        
+    }
+    .search{
+        display: none;
+    }
+     ol{
+        font-size: 18px;
+        flex-wrap: wrap ;
+        position: relative;
+        
+    }
+     #ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 10px;
+        width: 100%;
+        position: relative;
+        right: 10vw;
+    }
+    a{
+        position: relative;
+        
+    }
+    .color{
+        transform: scale(.95);        
+    }
+  
+
+.buy{
+    transform: scale(.9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.logos{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.link{
+padding: 3px;
+}
+.buytext{
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+.shoes{
+    width: 90%;
+}
+
+.bay{
+  margin-right: 400px;
+}
+.fListItem{
+    margin-left:25px;
+    
+}
+
+.buynow{
+    width: 90%;
+    height: 575px;
+}
+.zero{
+  position: absolute;
+  left: 50vw;
+  z-index: 2;
+}
+.one{
+  position: absolute;
+  left: 160vw;
+  z-index: 3;
+}
+.two{
+  position: absolute;
+  left: 260vw;
+  z-index: 3;
+}
+.three{
+    position: absolute;
+    left: 360vw;
+    z-index: 3;
+}
+.four{
+    position: absolute;
+    left: 460vw;
+    z-index: 3;
+    
+}
+
+
+
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+    background-color: white;
+    color: #111;
+    border-radius: 20px;
+  
+  }
+
+  .fMenuTitle{
+    font-size: 20px;
+  }
+
+  .fListItem{
+    font-size: 15px;
+    text-align: start;
+  }
+  }
+  
