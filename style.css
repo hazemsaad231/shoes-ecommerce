@@ -95,7 +95,7 @@ header{
     
   }
 
- ol{
+ #ol{
     display: flex;
     align-items:start;
     justify-content: space-between;
@@ -488,81 +488,30 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
+.Icon{
+  width: 30px;
+  height: 30px;
 
-footer {
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  .Menus{
     display: flex;
-    flex-wrap: wrap; 
-    padding-block: 50px;
-    padding-inline: 10px;
+    gap: 200px;
+  }
+  .List {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }
+  
 }
 
-
-.footerLeft {
-    flex: 2;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    padding: 5px;
-
-}
-
-.fMenuTitle {
-    font-size: 25px;
-    padding-block: 20px;
-    padding-bottom: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fList {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    list-style: none;
-}
-
-.fListItem {
-    color: gray;
-    cursor: pointer;
- 
-}
-
-.footerRight {
-    flex: 1;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.fInput {
-    padding: 2px;
-}
-
-.fButton {
-    padding: 4px;
-    background-color: black;
-    color: white;
-}
-
-.fIcons {
-    display: flex;
-    flex-wrap: wrap; 
-}
-
-.fIcon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.copyright {
-    font-weight: 300;
-    font-size: 14px;
-}
 
 
   
@@ -619,7 +568,7 @@ footer {
     .search{
         display: none;
     }
-     ol{
+     #ol{
         font-size: 18px;
         flex-wrap: wrap ;
         position: relative;
@@ -738,11 +687,37 @@ padding: 3px;
     font-size: 15px;
     text-align: start;
   }
+
+
+
+footer{
+  
+  .Menus{
+    display: flex;
+    gap: 15px;
   }
+  .Item {
+    color: gray;
+   
+    }
+     .Title{
+       font-size: 20px;
+      text-align: right;
+     }
+
+}
+
+
+
+
+  }
+
+
+
   
   
 
-  @media (min-width: 540px){
+  @media screen and (min-width: 480px) and (max-width: 540px){
 
     html, body {
         font-size: medium;
@@ -908,338 +883,9 @@ padding: 3px;
     font-size: 15px;
     text-align: start;
   }
-  }
 
-
-  @media (min-width: 765px){
-
-    html, body {
-        font-size: medium;
-        overflow-x: hidden;
-    }
-
-    .container{
-
-      width:524vw;
-
-     
-    }
-.h1{
-    font-size: 25px;
-}
-
-
-    
-     .container1,.container2,.container3,.container4,.container5{
-      width: 99vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-right: 40px;
-    }
  
-    .content{
-      width: 20%;
-      justify-content: center;
-      
-    }
-
-  .color{
-      position: relative;
-      right: 2%;
-    
-    }
-    
-    header{
-        background-color: black;
-        padding: 2px;
-        
-    }
-    .search{
-        display: none;
-    }
-     ol{
-        font-size: 18px;
-        flex-wrap: wrap ;
-        position: relative;
-        
-    }
-     #ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 12px;
-        gap: 10px;
-        width: 100%;
-        position: relative;
-        right: 10vw;
-    }
-    a{
-        position: relative;
-        
-    }
-    .color{
-        transform: scale(.85);        
-    }
-  
-
-.buy{
-    transform: scale(.9);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-
-}
-.logos{
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.link{
-padding: 3px;
-}
-.buytext{
-    width: 90%;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 0;
-}
-.shoes{
-    width: 90%;
-}
-
-.bay{
-  margin-right: 400px;
-}
-.fListItem{
-    margin-left:25px;
-    
-}
-
-.buynow{
-    width: 90%;
-    height: 575px;
-}
-.zero{
-  position: absolute;
-  left: 50vw;
-  z-index: 2;
-}
-.one{
-  position: absolute;
-  left: 165vw;
-  z-index: 3;
-}
-.two{
-  position: absolute;
-  left: 270vw;
-  z-index: 3;
-}
-.three{
-    position: absolute;
-    left: 370vw;
-    z-index: 3;
-}
-.four{
-    position: absolute;
-    left: 480vw;
-    z-index: 3;
-    
-}
-.a1,.b1,.c1,.d1,.e1{
-  display: none;
-}
-.a2,.b2,.c2,.d2,.e2{
-    font-size: 12px;
-}
 
 
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
-    background-color: white;
-    color: #111;
-    border-radius: 20px;
-  
   }
 
-  .fMenuTitle{
-    font-size: 20px;
-  }
-
-  .fListItem{
-    font-size: 15px;
-    text-align: start;
-  }
-  }
-  
-
-  @media (min-width: 1024px){
-
-    html, body {
-        font-size: medium;
-        overflow-x: hidden;
-    }
-
-    .container{
-
-      width:500%;
-
-     
-    }
-.h1{
-    font-size: 25px;
-}
-
-
-    
-     .container1,.container2,.container3,.container4,.container5{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-right: 40px;
-    }
- 
-    .content{
-      width: 20%;
-      justify-content: center;
-      
-    }
-
-  .color{
-      position: relative;
-      right: 2%;
-    
-    }
-    
-    header{
-        background-color: black;
-        padding: 2px;
-        
-    }
-    .search{
-        display: none;
-    }
-     ol{
-        font-size: 18px;
-        flex-wrap: wrap ;
-        position: relative;
-        
-    }
-     #ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 12px;
-        gap: 10px;
-        width: 100%;
-        position: relative;
-        right: 10vw;
-    }
-    a{
-        position: relative;
-        
-    }
-    .color{
-        transform: scale(.95);        
-    }
-  
-
-.buy{
-    transform: scale(.9);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-
-}
-.logos{
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.link{
-padding: 3px;
-}
-.buytext{
-    width: 90%;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 0;
-}
-.shoes{
-    width: 90%;
-}
-
-.bay{
-  margin-right: 400px;
-}
-.fListItem{
-    margin-left:25px;
-    
-}
-
-.buynow{
-    width: 90%;
-    height: 575px;
-}
-.zero{
-  position: absolute;
-  left: 50vw;
-  z-index: 2;
-}
-.one{
-  position: absolute;
-  left: 160vw;
-  z-index: 3;
-}
-.two{
-  position: absolute;
-  left: 260vw;
-  z-index: 3;
-}
-.three{
-    position: absolute;
-    left: 360vw;
-    z-index: 3;
-}
-.four{
-    position: absolute;
-    left: 460vw;
-    z-index: 3;
-    
-}
-
-
-
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
-    background-color: white;
-    color: #111;
-    border-radius: 20px;
-  
-  }
-
-  .fMenuTitle{
-    font-size: 20px;
-  }
-
-  .fListItem{
-    font-size: 15px;
-    text-align: start;
-  }
-  }
-  
