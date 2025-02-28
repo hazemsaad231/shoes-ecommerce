@@ -511,13 +511,20 @@ footer{
   }
   .Title{
     font-size: xx-large;
-     text-align: right;
+    font-weight: 600;
+  
   }
   .List {
    list-style: none;
    display: flex;
    flex-direction: column;
    gap: 10px;
+  }
+
+  .Item {
+    color: gray;
+    text-align: center;
+    cursor: pointer;
   }
   
 }
