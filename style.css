@@ -150,6 +150,8 @@ a{
   width: 500%;
   transition: all 1s ease-in-out;
   transform: translateX(0%);
+  background: url(img/photo-1604147495798-57beb5d6af73.avif);
+
 }
 
 .container1,.container2,.container3,.container4,.container5{ 
@@ -157,7 +159,6 @@ a{
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: url(img/photo-1604147495798-57beb5d6af73.avif);
 } 
 .content{
   display: flex;
