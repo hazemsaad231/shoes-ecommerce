@@ -167,7 +167,10 @@ a{
   
 }
 
-
+.mini{
+  position: relative;
+  right: 10%;
+}
 .color{
     padding-block: 10px;
     margin-top: 5%;
@@ -178,6 +181,7 @@ a{
     transition: all 1s ease-in-out;
     flex-wrap: wrap;
 }
+
 .green{
     background-color: green;
 }
@@ -193,8 +197,6 @@ a{
 .black{
     background-color: aqua;
 }
-
-
 
 
 .a1,.b1,.c1,.d1,.e1{
@@ -234,15 +236,13 @@ a{
     color: white;
  }
 
-
-
-
 .a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
   background-color: #111;
   color: white; 
   padding: 10px;
   border-radius: 20px;
   width: max-content;
+
 }
 
 .a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
@@ -302,11 +302,13 @@ a{
 }
 
 .shoes{
-  margin-left: 10%;
+  margin-left: 5%;
+  width: 80%;
 }
 
 .buytext p {
     color: gray;
+    
 }
 
 .buytext button {
@@ -315,7 +317,7 @@ a{
     width: 150px;
     height: 40px;
     font-size: large;
-    margin: 5%;
+    margin-top: 20px;
     cursor: pointer;
 }
 .blk{
@@ -351,7 +353,7 @@ a{
 .sizes{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     justify-content: flex-start;
     text-align: center;
     margin-top: 15px;
@@ -501,10 +503,15 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
   .Menus{
     display: flex;
-    gap: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .Title{
+    font-size: xx-large;
+     text-align: right;
   }
   .List {
    list-style: none;
@@ -518,37 +525,32 @@ footer{
 
 
   
-@keyframes s {
-     0%{ transform: rotate(0deg); } 
-     100%{ transform: rotate(360deg); } 
-  }
 
 
-  @media (max-width: 480px){
+  
+  
+
+ 
+  @media screen and (min-width: 912px) and (max-width: 1280px){
 
     html, body {
-        font-size: medium;
+        font-size: x-large;
         overflow-x: hidden;
     }
 
     .container{
 
-      width:550vw;
+      width:500vw;
+      background: url(img/photo-1604147495798-57beb5d6af73.avif);
 
      
     }
-.h1{
-    font-size: 25px;
-}
-
-
     
      .container1,.container2,.container3,.container4,.container5{
-      width: 99vw;
+      width: 100vw;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-right: 40px;
     }
  
     .content{
@@ -557,42 +559,8 @@ footer{
       
     }
 
-  .color{
-      position: relative;
-      right: 2%;
-    
-    }
-    
-    header{
-        background-color: black;
-        padding: 2px;
-        
-    }
-    .search{
-        display: none;
-    }
-     #ol{
-        font-size: 18px;
-        flex-wrap: wrap ;
-        position: relative;
-        
-    }
-     #ul{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 12px;
-        gap: 10px;
-        width: 100%;
-        position: relative;
-        right: 10vw;
-    }
-    a{
-        position: relative;
-        
-    }
     .color{
-        transform: scale(.45);        
+        transform: scale(.95);        
     }
   
 
@@ -604,11 +572,12 @@ footer{
     
 
 }
+
 .logos{
   margin-bottom: 50px;
   display: flex;
+  gap: 80px;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   
 }
@@ -616,8 +585,102 @@ footer{
 .link{
 padding: 3px;
 }
+
+.shoes{
+  margin-left: 0%;
+  width: 50%;
+}
+
+
+  footer{
+  
+    .Menus{
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    .Title{
+    font-size: x-large;
+     text-align: right;
+    }
+
+
+    .Item {
+      color: gray;
+      font-size: large;
+      text-align: left;
+     
+      }
+
+      .List{
+        text-align: left;
+      }
+       
+  
+  }
+  }
+
+
+
+
+  @media screen and (min-width: 765px) and (max-width: 912px){
+
+    html, body {
+        font-size: large;
+        overflow-x: hidden;
+    }
+
+    .container{
+
+      width:500vw;
+      background: url(img/photo-1604147495798-57beb5d6af73.avif);
+
+     
+    }
+.h1{
+    font-size: 30px;
+}
+
+
+    
+     .container1,.container2,.container3,.container4,.container5{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ 
+    .content{
+      width: 20%;
+      justify-content: center;
+      
+    }
+
+    .search{
+        display: none;
+    }
+    
+    .buytext button {
+ 
+      margin:5%;
+    }
+    .color{
+        transform: scale(.85);        
+    }
+  
+
+.buy{
+    transform: scale(.9);
+}
+
+.mini{
+  position: relative;
+  right: 55%;
+}
+
 .buytext{
-    width: 90%;
+    width: 100%;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -625,101 +688,33 @@ padding: 3px;
     position: relative;
     top: 0;
 }
+
 .shoes{
-    width: 90%;
-}
-
-.bay{
-  margin-right: 400px;
-}
-.fListItem{
-    margin-left:25px;
-    
-}
-
-.buynow{
-    width: 90%;
-    height: 575px;
-}
-.zero{
-  position: absolute;
-  left: 50vw;
-  z-index: 2;
-}
-.one{
-  position: absolute;
-  left: 165vw;
-  z-index: 3;
-}
-.two{
-  position: absolute;
-  left: 280vw;
-  z-index: 3;
-}
-.three{
-    position: absolute;
-    left: 380vw;
-    z-index: 3;
-}
-.four{
-    position: absolute;
-    left: 500vw;
-    z-index: 3;
-    
-}
-.a1,.b1,.c1,.d1,.e1{
-  display: none;
-}
-.a2,.b2,.c2,.d2,.e2{
-    font-size: 12px;
+    width: 95%;
 }
 
 
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
-    background-color: white;
-    color: #111;
-    border-radius: 20px;
+  footer{
   
-  }
-
-  .fMenuTitle{
-    font-size: 20px;
-  }
-
-  .fListItem{
-    font-size: 15px;
-    text-align: start;
-  }
-
-
-
-footer{
-  
-  .Menus{
-    display: flex;
-    gap: 15px;
-  }
-  .Item {
-    color: gray;
-   
+    .Menus{
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
     }
-     .Title{
-       font-size: 20px;
-      text-align: right;
-     }
-
-}
-
-
+    .Item {
+      color: gray;
+     
+      }
+       .Title{
+         font-size: 20px;
+        text-align: right;
+       }
+  
+  }
+  
 
 
   }
-
-
-
-  
-  
-
   @media screen and (min-width: 480px) and (max-width: 540px){
 
     html, body {
@@ -730,6 +725,7 @@ footer{
     .container{
 
       width:534vw;
+      background: url(img/photo-1604147495798-57beb5d6af73.avif);
 
      
     }
@@ -770,7 +766,6 @@ footer{
      ol{
         font-size: 18px;
         flex-wrap: wrap ;
-        position: relative;
         
     }
      #ul{
@@ -788,7 +783,7 @@ footer{
         
     }
     .color{
-        transform: scale(.6);        
+        transform: scale(.65);        
     }
   
 
@@ -823,6 +818,11 @@ padding: 3px;
 }
 .shoes{
     width: 90%;
+}
+
+.buytext button {
+ 
+  margin:5%;
 }
 
 .bay{
@@ -863,6 +863,8 @@ padding: 3px;
     z-index: 3;
     
 }
+
+
 .a1,.b1,.c1,.d1,.e1{
   display: none;
 }
@@ -887,8 +889,227 @@ padding: 3px;
     text-align: start;
   }
 
+  footer{
+  
+    .Menus{
+      display: flex;
+      gap: 50px;
+    }
+    .Item {
+      color: gray;
+     
+      }
+       .Title{
+         font-size: 20px;
+        text-align: right;
+       }
+  
+  }
+  
+  }
+
+
+  @keyframes s {
+    0%{ transform: rotate(0deg); } 
+    100%{ transform: rotate(360deg); } 
+ }
+
+
+ @media (max-width: 480px){
+
+   html, body {
+       font-size: medium;
+       overflow-x: hidden;
+   }
+
+   .container{
+
+     width:550vw;
+     background: url(img/photo-1604147495798-57beb5d6af73.avif);
+
+    
+   }
+.h1{
+   font-size: 25px;
+}
+
+
+   
+    .container1,.container2,.container3,.container4,.container5{
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-right: 40px;
+   }
+
+   .content{
+     width: 20%;
+     justify-content: center;
+     
+   }
+
+ .color{
+     position: relative;
+     right: 2%;
+   
+   }
+   
+   header{
+       background-color: black;
+       padding: 2px;
+       
+   }
+   .search{
+       display: none;
+   }
+    #ol{
+       font-size: 18px;
+       flex-wrap: wrap ;
+       position: relative;
+       
+   }
+    #ul{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       font-size: 12px;
+       gap: 10px;
+       width: 100%;
+       position: relative;
+       right: 10vw;
+   }
+   a{
+       position: relative;
+       
+   }
+   .color{
+       transform: scale(.45);        
+   }
  
 
+.buy{
+   transform: scale(.9);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
 
-  }
+}
+.logos{
+ margin-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.link{
+padding: 3px;
+}
+.buytext{
+   width: 90%;
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   top: 0;
+}
+.shoes{
+   width: 90%;
+}
+
+.bay{
+ margin-right: 400px;
+}
+.fListItem{
+   margin-left:25px;
+   
+}
+
+.buynow{
+   width: 90%;
+   height: 575px;
+}
+.zero{
+ position: absolute;
+ left: 50vw;
+ z-index: 2;
+}
+.one{
+ position: absolute;
+ left: 165vw;
+ z-index: 3;
+}
+.two{
+ position: absolute;
+ left: 280vw;
+ z-index: 3;
+}
+.three{
+   position: absolute;
+   left: 380vw;
+   z-index: 3;
+}
+.four{
+   position: absolute;
+   left: 500vw;
+   z-index: 3;
+   
+}
+.a1,.b1,.c1,.d1,.e1{
+ display: none;
+}
+.a2,.b2,.c2,.d2,.e2{
+   font-size: 12px;
+}
+.buytext button {
+ 
+  margin:5%;
+}
+
+.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+   background-color: white;
+   color: #111;
+   border-radius: 20px;
+ 
+ }
+
+ .fMenuTitle{
+   font-size: 20px;
+ }
+
+ .fListItem{
+   font-size: 15px;
+   text-align: start;
+ }
+
+
+
+footer{
+
+  padding: 5px;
+ 
+ .Menus{
+   display: flex;
+   row-gap: 20px;
+   
+ }
+ .Item {
+   color: gray;
+  
+   }
+    .Title{
+      font-size: 20px;
+      text-align: right;
+    }
+
+}
+
+
+
+
+ }
 
