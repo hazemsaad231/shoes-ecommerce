@@ -14,8 +14,8 @@ overflow-x: hidden;
 
 .theall{
     background-color:navajowhite;
-
 }
+
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Cursor */
@@ -125,7 +125,7 @@ header{
     align-self: start;
     position: relative;
     bottom: 5px;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
   }
   .search{
@@ -599,9 +599,6 @@ footer{
   
 }
 
-.link{
-padding: 3px;
-}
 
 .shoes{
   margin-left: 0%;
@@ -966,8 +963,6 @@ padding: 3px;
     }
    }
 
-
-   
    header{
        background-color: black;
        padding: 2px;
@@ -985,7 +980,7 @@ padding: 3px;
         flex-direction: row;
         flex-wrap: wrap;
         font-size: 12px;
-        gap: 10px;
+        gap: 14px;
         width: 100%;
         position: relative;
         right: 10vw;
