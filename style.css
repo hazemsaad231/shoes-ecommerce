@@ -28,9 +28,7 @@ overflow-x: hidden;
     overflow: hidden;
     
 }
-.active {
-    color:blue;
-}
+
 .link:hover{
     color:blue;
 }
@@ -79,55 +77,58 @@ overflow-x: hidden;
 }
 
 
-.right{
-display: flex;
-justify-content: end;
-margin-right: 2vw;
+ul{
+  list-style: none;
 }
+a{
+  text-decoration: none;
+}
+
+
 header{
     background-color: #111;
     color: white;
     padding: 2px 2px;
     width: 100%;
-  }
-
-.link{
-    color: aliceblue;
     
+    .link{
+      color: aliceblue;
+      
+    }
+    .right{
+      display: flex;
+      justify-content: end;
+      margin-right: 2vw;
+      }
+
+   #ol{
+      display: flex;
+      align-items:start;
+      justify-content: space-between;
+      list-style: none;
+      width: 100%;
+      height: min-content;
+      padding: .5px;
   }
 
- #ol{
-    display: flex;
-    align-items:start;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-    height: min-content;
-    padding: .5px;
-}
+  .h1{
 
-h1{
-
-  position: relative;
-  bottom: 1%;
-  margin-top: 1%;
-  animation-duration:4s;
-}
-
-
-ul{
+    position: relative;
+    bottom: 1%;
+    margin-top: 1%;
+    animation-duration:4s;
+  }
+  .ul{
     cursor: pointer;
     font-weight: 400;
-    list-style: none;
     display: flex;
     align-self: start;
     position: relative;
     bottom: 5px;
     gap: 20px;
     justify-content: center;
-}
-
-.search{
+  }
+  .search{
     width: 280px;
     height: 20px;
     border-radius: 8px;
@@ -140,9 +141,12 @@ ul{
     font-style: italic;
 }
 
-a{
-    text-decoration: none;
-}
+  }
+
+
+
+
+
 
 .container{
   display: flex;
@@ -199,7 +203,7 @@ a{
 }
 
 
-.a1,.b1,.c1,.d1,.e1{
+.price{
   font-size: 60px;
   font-weight: 300;
   text-align: center;
@@ -212,31 +216,33 @@ a{
 }
 
 
-.a2,.b2,.c2,.d2,.e2{
+.title{
     z-index: 2;
 }
 
-.a2{  
+.num1{  
 
    color: white;
 }
-.b2{  
+.num2{  
  
    color: yellowgreen;
 }
-.c2{  
+.num3{  
    
    color: white;
 }
-.d2{
+.num4{
     color:blueviolet;
     
 }
-.e2{  
+.num5{
+    
     color: white;
  }
 
-.a3 a,.b3 a,.c3 a,.d3 a,.e3 a{
+
+.buttonbuy a{
   background-color: #111;
   color: white; 
   padding: 10px;
@@ -245,7 +251,7 @@ a{
 
 }
 
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+.buttonbuy a:hover{
   background-color: white;
   color: #111;
   border-radius: 20px;
@@ -775,7 +781,7 @@ padding: 3px;
         flex-wrap: wrap ;
         
     }
-     #ul{
+     .ul{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -872,15 +878,15 @@ padding: 3px;
 }
 
 
-.a1,.b1,.c1,.d1,.e1{
+.price{
   display: none;
 }
-.a2,.b2,.c2,.d2,.e2{
+.title{
     font-size: 12px;
 }
 
 
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+.buttonbuy a:hover{
     background-color: white;
     color: #111;
     border-radius: 20px;
@@ -970,13 +976,13 @@ padding: 3px;
    .search{
        display: none;
    }
-    #ol{
+    .ol{
        font-size: 18px;
        flex-wrap: wrap ;
        position: relative;
        
    }
-    #ul{
+    .ul{
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;
@@ -1066,10 +1072,10 @@ padding: 3px;
    z-index: 3;
    
 }
-.a1,.b1,.c1,.d1,.e1{
+.price{
  display: none;
 }
-.a2,.b2,.c2,.d2,.e2{
+.title{
    font-size: 12px;
 }
 .buytext button {
@@ -1077,7 +1083,7 @@ padding: 3px;
   margin:5%;
 }
 
-.a3 a:hover,.b3 a:hover,.c3 a:hover,.d3 a:hover,.e3 a:hover{
+.buttonbuy a:hover{
    background-color: white;
    color: #111;
    border-radius: 20px;
