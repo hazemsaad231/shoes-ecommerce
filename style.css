@@ -1080,11 +1080,14 @@ footer{
  .Menus{
    display: flex;
    row-gap: 20px;
-   justify-content:start;
+   justify-content:space-around;
+   position: relative;
+   right: 20px;
+   width: 100%;
  }
     .Title{
-      font-size: 20px;
-      text-align: right;
+      font-size: 15px;
+      text-align: center;
     }
 
 }
@@ -1092,8 +1095,8 @@ footer{
   font-size: 20px;
 }
 
-.fListItem{
-  font-size: 15px;
+.Item{
+  font-size: 12px;
   text-align: start;
 }
 
