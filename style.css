@@ -168,9 +168,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-
 .mini{
   position: relative;
   right: 10%;
@@ -201,6 +199,8 @@ header{
 .black{
     background-color: aqua;
 }
+
+
 
 
 .price{
@@ -257,6 +257,10 @@ header{
   border-radius: 20px;
 
 }
+
+
+
+
 
 
 
@@ -791,10 +795,6 @@ padding: 3px;
         position: relative;
         right: 10vw;
     }
-    a{
-        position: relative;
-        
-    }
     .color{
         transform: scale(.65);        
     }
@@ -907,6 +907,7 @@ padding: 3px;
     .Menus{
       display: flex;
       gap: 50px;
+      justify-content: start;
     }
     .Item {
       color: gray;
@@ -946,8 +947,6 @@ padding: 3px;
    font-size: 25px;
 }
 
-
-   
     .container1,.container2,.container3,.container4,.container5{
      width: 100vw;
      display: flex;
@@ -959,43 +958,40 @@ padding: 3px;
    .content{
      width: 20%;
      justify-content: center;
-     
+
+     .color{
+      position: relative;
+      right: 2%;
+    
+    }
    }
 
- .color{
-     position: relative;
-     right: 2%;
-   
-   }
+
    
    header{
        background-color: black;
        padding: 2px;
-       
+       .search{
+        display: none;
+    }
+     #ol{
+        font-size: 18px;
+        flex-wrap: wrap ;
+        position: relative;
+        
+    }
+     .ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 10px;
+        width: 100%;
+        position: relative;
+        right: 10vw;
+    }
    }
-   .search{
-       display: none;
-   }
-    .ol{
-       font-size: 18px;
-       flex-wrap: wrap ;
-       position: relative;
-       
-   }
-    .ul{
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       font-size: 12px;
-       gap: 10px;
-       width: 100%;
-       position: relative;
-       right: 10vw;
-   }
-   a{
-       position: relative;
-       
-   }
+   
    .color{
        transform: scale(.45);        
    }
@@ -1018,9 +1014,6 @@ padding: 3px;
  
 }
 
-.link{
-padding: 3px;
-}
 .buytext{
    width: 90%;
    margin-top: 5px;
@@ -1034,18 +1027,11 @@ padding: 3px;
    width: 90%;
 }
 
-.bay{
- margin-right: 400px;
-}
-.fListItem{
-   margin-left:25px;
-   
-}
-
 .buynow{
    width: 90%;
-   height: 575px;
+   height: 600px;
 }
+
 .zero{
  position: absolute;
  left: 50vw;
@@ -1053,7 +1039,7 @@ padding: 3px;
 }
 .one{
  position: absolute;
- left: 165vw;
+ left: 170vw;
  z-index: 3;
 }
 .two{
@@ -1075,54 +1061,41 @@ padding: 3px;
 .price{
  display: none;
 }
+
 .title{
    font-size: 12px;
 }
+
+
 .buytext button {
  
   margin:5%;
 }
 
-.buttonbuy a:hover{
-   background-color: white;
-   color: #111;
-   border-radius: 20px;
- 
- }
-
- .fMenuTitle{
-   font-size: 20px;
- }
-
- .fListItem{
-   font-size: 15px;
-   text-align: start;
- }
-
-
 
 footer{
 
-  padding: 5px;
+  padding: 2px;
  
  .Menus{
    display: flex;
    row-gap: 20px;
-   
+   justify-content:start;
  }
- .Item {
-   color: gray;
-  
-   }
     .Title{
       font-size: 20px;
       text-align: right;
     }
 
 }
+.fMenuTitle{
+  font-size: 20px;
+}
 
-
-
+.fListItem{
+  font-size: 15px;
+  text-align: start;
+}
 
  }
 
